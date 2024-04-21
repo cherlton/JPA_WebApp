@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1>Veiw part of the list of Person</h1>
+        <p>
+            Please enter the start and end index   below :
+        </p>
+        <form action="ViewPartialListPersonServlet.do" method="POST">
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Start Index</th>
+                        <th>
+                            <input type="text" name="startIndex">
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>End Index</td>
+                        <td>
+                            <input type="text" name="endIndex">
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td></td>
+                        <td> <input type="submit" value="Get List"></td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </form>
+    </body>
+</html>
